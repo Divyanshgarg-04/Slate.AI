@@ -183,7 +183,7 @@ export const RoomPage = ({ user, socket }) => {
             </div>
 
             {/* Whiteboard Implementation */}
-            <div className="canvas-box col-md-9 mx-auto">
+            <div className="canvas-box col-md-9 mx-auto bg-white">
                 <WhiteBoard
                     canvasRef={canvasRef}
                     ctxRef={ctxRef}
